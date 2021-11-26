@@ -1,0 +1,470 @@
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  color: #3C3A38;
+}
+
+.offset:before {
+  display: inline-block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem f;
+}
+
+
+a:link {
+  color: #3C3A38;
+}
+
+/* visited link */
+a:visited {
+  color: #3C3A38;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FFE6E8;
+}
+
+/* selected link */
+a:active {
+  color: #3C3A38;
+}
+
+
+/*=====NAVIGATION=====*/
+
+
+#nav-bar {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  z-index: 10;
+  text-transform: uppercase;
+  font-weight: 700; 
+  font-size: 1rem;
+  letter-spacing: .1rem;
+}
+
+.navbar{
+  padding: 0 !important;
+
+}
+
+.navbar-brand img{
+  height: 2.5rem;
+}
+
+.navbar-toggler-icon{
+  background-color: #FFE6E8;
+}
+
+.navbar-nav li{
+  padding-right: 3rem;
+}
+
+/*buttons*/
+.navbar-nav li a{
+  color: white !important;
+  font-family: open sans !important;
+  font-weight: 600;
+  float: right;
+  text-align: left;
+  font-size: 1.1rem;
+}
+
+
+
+.navbar-nav li i{
+   padding-right: 5px;
+   size: 1.5rem;
+}
+
+
+/*=====LANDING PAGE=====*/
+
+#home {
+  background-image: url(.././assets/images/4.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+.jumbotron {
+  color: #FFE6E8;
+  color: white;
+  text-transform: uppercase;
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #FFE6E8;
+  font-family: open sans !important;
+  font-weight: bold;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  margin-left: 2%;
+  margin-bottom: 1px;
+}
+
+/*igniting businesses*/
+.lead {
+  font-size: 1.8rem;
+  text-shadow: .5rem .5rem .5rem black;
+  font-weight: 300;
+  font-family: open sans condensed;
+  letter-spacing: 2px;
+  margin-left: 2%;
+}
+
+.btn-lg {
+  border-width: 0;
+  border-radius: 10px;
+  padding: .6rem 1.3rem;
+  background-color: #D4AFB9;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #3C3A38;
+  margin-left: 2%;
+} 
+
+.btn-lg:hover{
+  color: #D4AFB9;
+  background-color: white;
+}
+
+/*=====ABOUT ME=====*/
+
+
+#about{
+  content: 100vh;
+
+}
+
+#about img{
+  height: 20rem;
+  width: rem;
+  padding-top: 2%;
+}
+
+
+/*About*/
+.banner-title {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: open sans condensed;
+  text-transform: uppercase;
+}
+
+.heading-underline {
+  width: 4rem;
+  height: .3rem;
+  background-color: #D4AFB9;
+  margin: 0 auto 2rem;
+}
+
+
+#agprimedia{
+  text-align: center;
+  font-size: 1rem;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+#arrianne{
+  text-align: center;
+  font-size: .9rem;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+#ian{
+  text-align: center;
+  margin-top: 5px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: open sans condensed;
+}
+
+.feature{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#skills1{
+  margin-bottom: 20px;
+}
+
+#skills2{
+  margin-bottom: 40px;
+
+}
+
+
+h4 {
+  font-family: open sans condensed !important;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+/*=====MY PROJECTS=====*/
+
+#projects{
+  background-image: url(.././assets/images/6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 50px;
+}
+
+#projectcards{
+  margin-top: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+}
+
+/*My Projects*/
+h2{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: open sans condensed;
+  text-transform: uppercase;
+}
+
+#projects p{
+  text-align: center;
+  font-size: 1rem;
+}
+
+#partner{
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+h5{
+  text-align: center;
+}
+
+#projects img{
+  border-radius: 20px;
+}
+
+.card{
+    border-radius: 20px;
+}
+
+/*project buttons*/
+.card a{
+  border-width: 0;
+  border-radius: 10px;
+  padding: .6rem 1.3rem;
+  background-color: #3C3A38;
+  color: #D4AFB9;
+  font-weight: 600;
+} 
+
+.card a:hover{
+  color: white;
+  background-color: #D4AFB9;;
+}
+
+h5{
+  font-family: open sans condensed !important;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/*=====CONTACT SECTION=====*/
+
+
+.contact-form{
+    width: 100%;
+}
+
+.contact-form .form-control{
+    border-radius:1rem;
+    margin-bottom: 20px;
+    border-color: #D4AFB9;
+    border-width: 2px;
+}
+
+.contact-image{
+    text-align: center;
+}
+
+.contact-form form{
+    padding: 5%;
+}
+
+.contact-form form .row{
+    margin-bottom: 2px;
+}
+
+#contact p{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+/*send message button*/
+.contact-form .btnContact {
+    width: 44%;
+    border: none;
+    font-size: .8rem;
+    border-radius: .8rem;
+    background: #3C3A38 ;
+    font-weight: 600;
+    color: #D4AFB9;
+    cursor: pointer;
+    margin-bottom: 50px;
+}  
+
+.contact-form .btnContact:hover{
+  color: white;
+  background-color: #D4AFB9;
+}
+
+input{
+    height: 50px;
+}
+
+textarea{
+  height: 220px;
+}
+
+#map-container-google-1{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+#map-container-google-1 iframe{
+    left:0;
+    top:0;
+    height:150%;
+    width:100%;
+    position:absolute;
+}
+
+
+#contact i{
+  margin-right: 5px;
+}
+
+
+/*=====FOOTER SECTION=====*/
+
+footer{
+  background-color: #D4AFB9;
+}
+
+#location{
+  margin-left: 10px;
+}
+
+#footer img{
+  height: 5rem;
+  width: 4rem;
+  margin-top: 3px;
+}
+
+.flex-wrapper ul{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.flex-wrapper ul li{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 100%;
+  background: white;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+/*social media buttons*/
+.flex-wrapper ul li a{
+  display: block;
+  color: #3C3A38;
+  font-size: 28px;
+}
+
+.flex-wrapper ul li a:hover{
+  color: white;
+  background-color: #3C3A38;
+}
+
+#newsletter{
+  margin: auto;
+}
+
+#newsletter input{
+    width: 35%;
+    text-align: center !important;
+    height: 40px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: grey;
+    margin: 10px;
+}
+
+#newsletter button{
+  color: #3C3A38;
+  background: white;
+  border: none;
+  border-radius: 1rem;
+  font-weight: 700;
+  padding: 5px 10px;
+}
+
+#newsletter button:hover{
+  color: white;
+  background-color: #3C3A38;
+}
+
+#newsletter label{
+  font-weight: 700;
+}
+
+footer span {
+  font-weight: 600;
+  font-family: open sans condensed;
+}
+
+.footer-copyright {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+#terms{
+  font-weight: 300;
+}
+
+#topbutton{
+  margin-left: 2%;
+  margin-right: 3%;
+}
