@@ -70,7 +70,7 @@ a:active {
 
 /*buttons*/
 .navbar-nav li a{
-  color: white !important;
+  color: #FFE6E8 !important;
   font-family: open sans !important;
   font-weight: 600;
   float: center;
@@ -186,7 +186,7 @@ h1 {
 
 #arrianne{
   text-align: center;
-  font-size: .9rem;
+  font-size: 1rem;
   margin-left: 3%;
   margin-right: 3%;
 }
@@ -403,7 +403,7 @@ h5{
 }
 
 input{
-    height: 50px;
+    height: 55px;
 }
 
 textarea{
@@ -420,7 +420,7 @@ textarea{
 #map-container-google-1 iframe{
     left:0;
     top:0;
-    height:150%;
+    height:100%;
     width:100%;
     position:absolute;
 }
@@ -527,5 +527,5 @@ footer span {
 
 #topbutton{
   margin-left: 2%;
-  margin-right: 3%;
+  margin-right: 4%;
 }
