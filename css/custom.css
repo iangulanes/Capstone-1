@@ -27,7 +27,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: #FFE6E8;
+  color: #D4AFB9;
 }
 
 /* selected link */
@@ -42,7 +42,7 @@ a:active {
 #nav-bar {
   position: fixed;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: black;
   top: 0;
   z-index: 10;
   text-transform: uppercase;
@@ -73,9 +73,9 @@ a:active {
   color: white !important;
   font-family: open sans !important;
   font-weight: 600;
-  float: right;
-  text-align: left;
-  font-size: 1.1rem;
+  float: center;
+  text-align: center;
+  font-size: 1rem;
 }
 
 
@@ -223,7 +223,7 @@ h4 {
 /*=====MY PROJECTS=====*/
 
 #projects{
-  background-image: url(.././assets/images/6.jpg);
+  background-image: url(.././assets/images/proj.gif);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -462,7 +462,7 @@ footer{
   height: 40px;
   text-align: center;
   border-radius: 100%;
-  background: white;
+  background: #D4AFB9;
   margin-left: 1rem;
   margin-right: 1rem;
 }
